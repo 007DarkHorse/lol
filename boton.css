@@ -180,12 +180,12 @@ input[type="submit"]:active
   section span 
   {
     width: calc(20vw - 2px);
-    height: calc(20vw - 2px);
+    alta: calc(20vw - 2px);
   }
 }
 
 p{
-  color: white;
+  color: blanco;
 }
 
 
@@ -213,32 +213,126 @@ p{
 
 
 
-.download-link{
-  cursor:pointer;
-  user-select:none;
-  text-align: center;
-  text-decoration: none;
-  cursor: pointer;
-  transition-duration: 0.4s;
-  -webkit-transition-duration: 0.4s; /* Safari */
+. . . . . . . . . . . . . . .descargar enlace{
+  cursor:puntero;
+ usuario seleccionado:ninguno;
+ alineación de texto: centro;
+ decoración de texto: ninguno;
+  cursor: puntero;
+ duración de la transición: 0,4s;
+  -webkit-transición-duración: 0,4s; /* Safari */
 }
 
-.download-link:hover {
-  transition-duration: 0.3s;
-  background-color: #ffffff;
+. . . . . . . . . . . . . . . .descargar-enlace:flotar {
+ duración de la transición: 0,3s;
+ color de fondo: #ffffff;
 }
 
-.download-link:after {
-  content: "";
-  display: block;
-  position: absolute;
-  left: 0;
-  top:0;
-  width: 100%;
-  height: 100%;
-  opacity: 0;
-  transition: all 0.5s;
-  box-shadow: 0 0 10px 40px rgb(255, 166, 0);
+. . . . . . . . . . . . . . .descargar-enlace:desprecia {
+  contenido: "";
+  pantalla: bloquear;
+  posición: absoluto;
+  izquierda: 0;
+  arriba:0;
+  ancho: 100%;
+  alta: 100%;
+  opacidad: 0;
+  transición: todo 0,5s;
+ sombra de caja: 0 0 10px 40px rgb(255, 166, 0);
+}
+
+. . . . . . . . . . . . . . . . .descargar-enlace:activo:desprecia {
+ sombra de caja: 0 0 0 0 rgb(255, 166, 0);
+ positie: absoluto;
+ radio fronterizo: 4em;
+ izquierda: 0;
+  arriba:0;
+  opacidad: 1;
+  transición: 0s;
+}
+
+. . . . . . . . . . . . . . . . .descargar-enlace:activo {
+  arriba: 1px;
+}
+
+
+
+/* ---------- Se ve bien en CodePen ---------- */
+
+@importar URL('https://fonts.googleapis.com/css2?family=Jost&display=swap');
+
+html, cuerpo{
+  alta:100%;
+  margen: 0;
+}
+
+cuerpo{
+  pantalla: flexionar;
+ direcționa flexibilă: columna;
+ elementos alineales: centro;
+ justificar contenido: centro;
+ familia de fuentes: "Jost", sans-serif;
+ tamaño de fuente:14px;
+}
+
+h1 {
+ tamaño de fuente: calc(1,5em + 3vw);
+ margen: -2em 0 2em;
+ alineación de texto:centro;
+ alta de la línea:1,3em;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+. . . . . . . . . . . . . . . . . . . . . .descargar enlace{
+  cursor:puntero;
+ usuario seleccionado:ninguno;
+ alineación de texto: centro;
+ decoración de texto: ninguno;
+  cursor: puntero;
+  duración de la transición: 0,4s;
+  -webkit-transición-duración: 0,4s; /* Safari */
+}
+
+. .descargar-enlace:flotar {
+  duración de la transición: 0,3s;
+  color de fondo: #ffffff;
+}
+
+. .descargar-enlace:después {
+  contenido: "";
+  pantalla: bloquear;
+  posición: absoluto;
+  izquierda: 0;
+  arriba:0;
+  ancho: 100%;
+  altura: 100%;
+  opacidad: 0;
+  transición: todo 0,5s;
+  sombra de caja: 0 0 10px 40px rgb(255, 166, 0);
 }
 
 .download-link:active:after {
